@@ -1,3 +1,7 @@
+from intents.time_intent import TimeIntent
+from intents.speed_intent import SpeedIntent
+from intents.fallback_intent import FallbackIntent
+
 class Assistant:
     def __init__(self):
         self.name = "Car Assistant"
@@ -10,10 +14,27 @@ class Assistant:
 from intents.time_intent import TimeIntent
 from intents.fallback_intent import FallbackIntent
 
+
+# Time
 class Assistant:
     def __init__(self):
         self.intents = [
             TimeIntent(),
+            FallbackIntent()
+        ]
+
+    def process(self, command: str) -> str:
+        for intent in self.intents:
+            if intent.can_handle(command):
+                return intent.handle(command)
+
+# Speed
+
+class Assistant:
+    def __init__(self):
+        self.intents = [
+            TimeIntent(),
+            SpeedIntent(),
             FallbackIntent()
         ]
 
