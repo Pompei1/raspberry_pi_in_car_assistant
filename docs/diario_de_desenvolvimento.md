@@ -15,3 +15,18 @@
 **Próximos passos:**
 - Configurar Raspberry Pi
 - Estudar para a criação do assistente
+
+## Dia 2 - definição do MVP
+**objetivo do dia:**
+- Definir a versão 1.0 do MVP
+
+**O que foi feito:**
+- Definição do MVP
+
+**Aprendizados:**
+- Definição da versão 1.0 do MVP para saber exatamente o que codar
+
+**Próximos passos:**
+- Estudar para a criação do assistente
+- Iniciar a versão 1.0 do MVP
+- Configurar Raspberry PI
